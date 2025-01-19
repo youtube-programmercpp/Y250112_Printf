@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9397132a-8d3f-4f49-9aef-e391fae3c679}</ProjectGuid>
-    <RootNamespace>X250112MiniPrintf</RootNamespace>
+    <ProjectGuid>{8710fffb-929c-4b3a-af07-3ef0045440d5}</ProjectGuid>
+    <RootNamespace>X250119MiniScanf</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="X250112_MiniPrintf.c" />
+    <ClCompile Include="mini_scanf.cpp" />
+    <ClCompile Include="X250119_MiniScanf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mini_scanf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestData_floating_point.txt" />
+    <Text Include="TestData_integral.txt" />
+    <Text Include="TestData_yyyy_mm_dd.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

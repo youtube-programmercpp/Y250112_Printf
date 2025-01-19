@@ -15,8 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="X250112_MiniPrintf.c">
+    <ClCompile Include="X250119_MiniScanf.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="mini_scanf.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mini_scanf.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestData_floating_point.txt" />
+    <Text Include="TestData_integral.txt" />
+    <Text Include="TestData_yyyy_mm_dd.txt" />
   </ItemGroup>
 </Project>
